@@ -36,6 +36,14 @@ public function resta(){
     $respuesta=  $this->n1 -  $this->n2;
     return $respuesta;
 }
+public function division(){
+    $respuesta=  $this->n1 /  $this->n2;
+    return $respuesta;
+}
+public function multiplicacion(){
+    $respuesta=  $this->n1 * $this->n2;
+    return $respuesta;
+}
 public function __toString()
 {
     return   "primer numero ingresado : \n" 
